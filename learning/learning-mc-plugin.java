@@ -1,5 +1,4 @@
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -11,12 +10,12 @@ public class Main extends JavaPlugin {
  
  	public void onEnable(){
  			this.pl=this
-			system.out.println("You have enabled the plugin!");
+			System.out.println("You have enabled the plugin!");
      		 }
 	
 	public void onDisable(){
 			this.pl=null
-			system.out.println("You have disabled the plugin!");
+			System.out.println("You have disabled the plugin!");
 		}
  }
   
