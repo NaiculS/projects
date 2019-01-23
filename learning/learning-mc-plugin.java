@@ -9,20 +9,15 @@ public class Main extends JavaPlugin {
   PluginManager pm = Bukkit.getServer().getPluginManager();
 	Plugin pl;
  
- public void onEnable(){
- 					my.pl=this
-      }
+ 	public void onEnable(){
+ 			this.pl=this
+			system.out.println("You have enabled the plugin!");
+     		 }
 	
-	public void onDisable(){\
-					my.pl=null
-			}
- 
- if(my.pl=this){
- 			system.out.println("You have enabled the plugin!");
- 			}
- else{
- 			system.out.println("You have disabled the plugin!");
- 			}
+	public void onDisable(){
+			this.pl=null
+			system.out.println("You have disabled the plugin!");
+		}
  }
   
   
