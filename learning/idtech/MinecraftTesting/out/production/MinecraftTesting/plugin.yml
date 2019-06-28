@@ -1,0 +1,10 @@
+name: TestingMCPlugin
+version: Alpha
+author: NaiculS
+main: com.naiculs.test.Test
+api-version: 1.8.8
+
+commands:
+      helloworld:
+description: Has server reply to the user with Hello World!
+usage: /helloworld
