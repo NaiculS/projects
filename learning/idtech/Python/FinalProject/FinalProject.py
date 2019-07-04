@@ -100,3 +100,4 @@ if password == "d":
             print("That is not a valid answer, please pick 1 or 2.")
 else:
     print("That's a wrong password!")
+3
